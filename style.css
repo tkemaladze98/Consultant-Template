@@ -1,0 +1,168 @@
+/* font-family: 'Roboto', sans-serif; */
+
+header{
+    background-color: #0C3C60;
+    min-height: 67px;
+    display: flex;
+    align-items: center;
+}
+header .navbar{
+    width: 85%;
+    margin: auto;
+    padding: 0px;
+    max-width: 1150px;
+}
+header .navbar-toggler span{
+    background-image: none!important;
+    stroke: white;
+}
+header .navbar a{
+    color: white!important;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+header .navbar-collapse{
+    justify-content: flex-end;
+}
+header .navbar-nav a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+header .log-in svg{
+    fill: white;
+}
+header .log-in span{
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+header .navbar-brand{
+    font-size: 20px!important;
+}
+header .navbar-nav a:hover{
+    color: #50aaf0!important;
+    transition: 0.3s;
+}
+.home .banner-area{
+    background-image: url(https://static.wixstatic.com/media/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.jpg/v1/fill/w_1551,h_784,al_c,q_85,usm_0.66_1.00_0.01/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.webp);
+    background-size: cover;
+    min-height: 682px;
+    position: relative;
+}
+.home .banner-area div{
+    width: 70%;
+    max-width: 832px;
+    min-height: 250px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.home .banner-area div span{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -0.5px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.home .banner-area div h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    color: #072136;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+}
+.home .banner-area div button{
+    width: 230px;
+    min-height: 55px;
+    background-color: transparent;
+    color: #0c3b5f;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-radius: 0px!important;
+    border: 1px solid #0c3b5f;
+}
+.home .banner-area div button:hover{
+    background-color: #0c3b5f;
+    color: white;
+    transition: 0.3s;
+}
+.home .info{
+    max-width: 1185px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 85px;
+}
+.home .info .col-sm-6{
+    max-width: 395px;
+    min-height: 545px;
+    padding: 0px;
+}
+.home .info .col-sm-6 .card{
+    max-width: 100%;
+    min-height: 100%;
+    border-radius: 0px!important;
+
+}
+.home .info .col-sm-6 .card .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 43px;
+    padding-right: 43px;
+    justify-content: space-evenly;
+}
+.home .info .col-sm-6 .card .card-body h5{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    color: #0a2e4b;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+.home .info .col-sm-6 .card .card-body p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+.home .info .col-sm-6 .card .card-body .btn-primary{
+    width: 181px;
+    min-height: 55px;
+    background-color: #0C3C60;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.home .info .col-sm-6 .card .card-body .btn-primary:hover{
+    background-color: white;
+    color: #0C3C60;
+    border: 1px solid #0C3C60;
+    transition: 0.3s;
+}
+.home .about{
+    background-color: rgb(227, 241, 240);
+    min-height: 679px;
+}
+.home .about div{
+    background-image: url(https://static.wixstatic.com/media/82fcd3_96376843bac9407bb5b50891b78b6210~mv2.jpg/v1/fill/w_1349,h_679,al_c,q_85,usm_0.66_1.00_0.01/82fcd3_96376843bac9407bb5b50891b78b6210~mv2.webp);
+    background-size: cover;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
