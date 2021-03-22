@@ -158,11 +158,170 @@ header .navbar-nav a:hover{
 .home .about{
     background-color: rgb(227, 241, 240);
     min-height: 679px;
+    position: relative;
+    margin-bottom: 140px;
 }
 .home .about div{
     background-image: url(https://static.wixstatic.com/media/82fcd3_96376843bac9407bb5b50891b78b6210~mv2.jpg/v1/fill/w_1349,h_679,al_c,q_85,usm_0.66_1.00_0.01/82fcd3_96376843bac9407bb5b50891b78b6210~mv2.webp);
     background-size: cover;
-    opacity: 0.8;
+    opacity: 0.1;
     width: 100%;
-    height: 100%;
+    min-height: 679px;
+}
+.home .about article{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    top: 100px;
+}
+.home .about h3{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #072136;
+    letter-spacing: 0.05em;
+}
+.home .about p{
+    max-width: 645px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+.home .about .btn{
+    width: 181px;
+    min-height: 55px;
+    background-color: transparent;
+    color: #0C3C60;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-radius: 0px;
+    border-color: #0C3C60;
+}.home .about .btn:hover{
+    background-color: #0C3C60;
+    color: white;
+}
+.home .clients{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 140px;
+}
+.home .clients .card{
+    width: 25%;
+    min-height: 209px;
+}
+.home .clients .card-body{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .clients svg{
+    fill: #757575!important;
+}
+.home .clients h1{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #0e3453;
+    margin-bottom: 75px;
+    letter-spacing: 0.05em;
+}
+.home .creator{
+    background-color: #F7F7F7;
+    min-height: 651px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.home .creator .carousel{
+    width: 70%;
+    margin: auto;
+    min-height: 387px;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.home .creator .carousel-inner{
+    position: absolute;
+    top: 80px;
+}
+.home .creator .active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home .creator .carousel-item{
+    text-align: center;
+}
+.home .creator .carousel-control-next{
+    transform: rotate(180deg);
+    opacity: 1;
+}
+.home .creator .carousel-control-prev{
+    opacity: 1;
+}
+.home .creator .carousel-control-next svg{
+    position: absolute;
+    left: 20px;
+    stroke: black;
+}
+.home .creator .carousel-control-prev svg{
+    position: absolute;
+    left: 20px;
+    stroke: black;
+}
+.home .creator .carousel-control-next svg:hover{
+    stroke: grey;
+    transition: 0.1s;
+}
+.home .creator .carousel-control-prev svg:hover{
+    stroke: grey;
+    transition: 0.1s;
+}
+.home .creator .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0px 9px;
+}
+.home .creator .carousel-item p{
+    max-width: 465px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #072136;
+    margin-bottom: 45px;
+}
+.home .creator .carousel-item .manager{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #0c3c60;
+}
+
+.home .creator .carousel-item .name{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+.home .creator h2{
+    font-size: 36px;
+    color: #0e3453;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
 }
