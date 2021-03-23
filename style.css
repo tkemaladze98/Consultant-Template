@@ -104,6 +104,9 @@ header .navbar-nav a:hover{
     margin-top: 75px;
     margin-bottom: 85px;
 }
+.home .info .row{
+    margin: 0px;
+}
 .home .info .col-sm-6{
     max-width: 395px;
     min-height: 545px;
@@ -214,7 +217,7 @@ header .navbar-nav a:hover{
     margin-bottom: 140px;
 }
 .home .clients .card{
-    width: 25%;
+    width: 285px;
     min-height: 209px;
 }
 .home .clients .card-body{
@@ -324,4 +327,198 @@ header .navbar-nav a:hover{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 0.05em;
+}
+footer{
+    background-color: #0C3C60;
+}
+footer .contact{
+    min-height: 932px;
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .contact form{
+    width: 100%;
+    padding: 0px 30px;
+}
+footer .contact form .row{
+    margin: 0px;
+}
+footer .contact .row .col:first-child{
+    padding-left: 0px ;
+}
+footer .contact .row .col:last-child{
+    padding-right: 0px ;
+}
+footer .contact form .row input{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+footer .contact form input{
+    margin-bottom: 40px;
+}
+footer .contact form input:hover{
+    border-bottom: 2px solid white;
+}
+footer .contact form label{
+    font-size: 18px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+footer .contact .form-group{
+    display: flex;
+    align-items: flex-end;
+}
+footer .contact .form-group div{
+    width: 100%;
+}
+
+footer .contact .form-group textarea{
+    max-width: 698px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    border-radius: 0px;
+    height: 37px;
+}
+footer .contact .form-group textarea:hover{
+    border-bottom: 2px solid white;
+}
+footer .contact .form-group label{
+    margin: 0px;
+}
+footer .contact .form-group .btn{
+    min-width: 187px;
+    height: 55px;
+    background-color: white;
+    color: #0c3b5f;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border-radius: 0px;
+}
+footer .contact h1{
+    font-size: 36px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+footer .contact img{
+    max-width: 919px;
+    width: 100%;
+    min-height: 200px;
+}
+footer .contact-info{
+    background-color: #072136;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 55px;
+    min-height: 313px;
+}
+footer .contact-info .left{
+    box-sizing: border-box;
+    padding-left: 75px;
+    width: 450px;
+}
+footer .contact-info .right{
+    box-sizing: border-box;
+    padding-left: 75px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer .contact-info aside h5{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+}
+footer .contact-info .left p{
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+}
+footer .contact-info .left a{
+    color: white;
+    text-decoration: none;
+}
+footer .contact-info .mid{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .contact-info .mid div{
+    display: flex;
+    flex-direction: column;
+}
+footer .contact-info .mid div a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+footer .contact-info .mid div a:hover{
+    color: #50aaf0!important;
+    transition: 0.3s;
+}
+footer .contact-info .right p{
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+}
+footer .contact-info .right i{
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 90px;
+}
+footer .contact-info .right h5{
+    margin-bottom: 10px;
+}
+footer .contact-info .right p a{
+    color: white;
+    text-decoration: underline;
+}
+.outside{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+    overflow: hidden;
+    z-index: 15;
+}
+.inside{
+    width: 60px;
+    height: 60px;
+    background-color: #0C3C60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.inside svg{
+    fill: rgb(206, 201, 201);
 }
