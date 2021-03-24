@@ -1,8 +1,144 @@
 @media screen and (max-width:650px){
     footer .mid{
-        background-color: transparent!important;
         width: 1px!important;
         height: 1px!important;
         opacity: 0;
+    }
+    footer .contact-info{
+        padding-bottom: 70px;
+    }
+    footer .contact-info aside{
+        max-width: 250px;
+    }
+    footer .contact-info .right i{
+        margin-bottom: 0px;
+    }
+    .home .clients .card-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home .clients .card-group .card{
+        flex: 1 1 40%;
+        border: 1px solid rgb(197, 197, 197);
+    }
+    .home .banner-area div h1{
+        font-size: 36px;
+    }
+    .home .banner-area div span{
+        font-size: 20px;
+    }
+    .home .creator .carousel{
+        width: 100%;
+    }
+    .home .creator .carousel-item p{
+        max-width: 365px;
+    }
+    footer .contact-info .left{
+        padding-left: 15px;
+    }
+    footer .contact-info .right{
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width:980px){
+    .about .second article{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .first div{
+        flex-direction: column;
+    }
+    .about .first div img{
+        max-width: 489px;
+    }
+    .about .first h1{
+        margin-bottom: 0px;
+    }
+    .about .first div{
+        border: none;
+    }
+    .about .first div article{
+        border: none!important;
+    }
+    .about .second .cards article div{
+        /* border: 1px solid rgb(216, 213, 213)!important; */
+        margin-bottom: 55px;
+        border: none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .about .first div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .first div article{
+        margin: auto;
+        border: 1px solid rgb(216, 213, 213);
+        padding: 50px;
+    }
+    .projects .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects .cards .card{
+        max-width: 490px;
+        /* border: 1px solid rgb(216, 213, 213)!important; */
+        border: none;
+    }
+    .projects h1{
+        margin-bottom: 0px;
+    }
+    .services article{
+        max-width: 470px;
+    }
+    .services .cards .card{
+        flex-direction: column;
+    }
+    .services h1{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:470px){
+    .services .cards{
+        width: 100%;
+    }
+    .services .cards .card{
+        width: 100%;
+    }
+    .services .cards .card img{
+        width: 100%;
+    }
+    .services .cards .card .card-body{
+        width: 100%!important;
+        padding-left: 20px;
+    }
+    footer .contact .form-group .btn{
+        width: 165px!important;
+    }
+    footer .contact-info{
+        flex-direction: column;
+        min-height: 408px;
+    }
+    .about .second .cards article div{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (min-width:1500px){
+    header .navbar{
+        max-width: 2000px;
+    }
+}
+@media screen and (max-width:375px){
+    .about .first div article{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width:300px){
+    .home .about div{
+        min-height: 780px;
     }
 }

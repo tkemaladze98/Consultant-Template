@@ -12,6 +12,9 @@ header .navbar{
     padding: 0px;
     max-width: 1150px;
 }
+header .navbar-toggler{
+    padding: 0px;
+}
 header .navbar-toggler span{
     background-image: none!important;
     stroke: white;
@@ -73,6 +76,7 @@ header .navbar-nav a:hover{
     letter-spacing: -0.5px;
     margin-top: 20px;
     margin-bottom: 15px;
+    text-align: center;
 }
 .home .banner-area div h1{
     font-size: 60px;
@@ -81,9 +85,10 @@ header .navbar-nav a:hover{
     font-weight: 400;
     letter-spacing: 0.03em;
     margin-bottom: 30px;
+    text-align: center;
 }
 .home .banner-area div button{
-    width: 230px;
+    max-width: 230px;
     min-height: 55px;
     background-color: transparent;
     color: #0c3b5f;
@@ -106,6 +111,7 @@ header .navbar-nav a:hover{
 }
 .home .info .row{
     margin: 0px;
+    justify-content: center;
 }
 .home .info .col-sm-6{
     max-width: 395px;
@@ -395,7 +401,7 @@ footer .contact .form-group label{
     margin: 0px;
 }
 footer .contact .form-group .btn{
-    min-width: 187px;
+    width: 187px;
     height: 55px;
     background-color: white;
     color: #0c3b5f;
@@ -403,6 +409,11 @@ footer .contact .form-group .btn{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     border-radius: 0px;
+}
+footer .contact .form-group .btn:hover{
+    background-color: #0c3b5f;
+    color: white;
+    border: 1px solid white;
 }
 footer .contact h1{
     font-size: 36px;
@@ -521,4 +532,237 @@ footer .contact-info .right p a{
 }
 .inside svg{
     fill: rgb(206, 201, 201);
+}
+.about .first{
+    text-align: center;
+}
+.about .first div{
+    display: flex;
+    max-width: 978px;
+    margin: auto;
+    border: 1px solid rgb(216, 213, 213);
+}
+.about .first div article{
+    border-right: 1px solid rgb(216, 213, 213);
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 91px;
+}
+.about .first div article p{
+    max-width: 386px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.about .first div img{
+    object-fit: cover;
+    max-width: 489px;
+}
+.about .first h1{
+    margin: 100px 0px;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #072136;
+    letter-spacing: 0.03em;
+}
+.about .second{
+    text-align: center;
+}
+.about .second h2{
+    margin-top: 175px;
+    font-size: 36px;
+    color: #072136;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+.about .second p{
+    font-size: 16px;
+    max-width: 280px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: auto;
+}
+.about .second .cards{
+    max-width: 978px;
+    margin: auto;
+}
+.about .second .cards article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about .second .cards article div:nth-child(odd){
+    border-right: none;
+}
+.about .second .cards article div{
+    max-width: 489px;
+    padding: 75px 60px;
+    border: 1px solid rgb(216, 213, 213);
+}
+.about .second .cards .top{
+    margin-top: 105px;
+}
+.about .second .cards .top div{
+    border-bottom: none;
+}
+.about .second .cards .bottom div{
+    margin-bottom: 55px;
+}
+.about .second .cards article div h4{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.about .second .cards article div h5{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.about .second .cards article div p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+    max-width: 343px;
+}
+.about img{
+    object-fit: cover;
+    width: 100%;
+}
+.projects{
+    max-width: 980px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects h1{
+    font-size: 60px;
+    color: #0f395c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 100px 0px;
+}
+.projects .cards img{
+    max-width: 438px;
+}
+.projects .cards{
+    display: flex;
+}
+.projects .top .card{
+    border-bottom: none;
+}
+.projects .cards .card:nth-child(odd){
+    border-right: none;
+}
+.projects .cards .card{
+    padding: 75px 25px;
+    border-radius: 0px;
+}
+.projects .cards .card h2{
+    font-size: 36px;
+    color: #0b2e4b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 40px 0px 25px;
+    letter-spacing: 0.03em;
+}
+.projects .cards .card .card-body{
+    padding: 0px;
+}
+.projects .cards .card p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.8em;
+}
+.projects .bottom{
+    margin-bottom: 100px;
+}
+.services{
+    max-width: 940px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services .cards .card{
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+.services .cards .card img{
+    max-width: 470px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+.services .cards .card-body{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+}
+.services .cards .card-body h5{
+    font-size: 24px;
+    color: #124066;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.services .cards .card-body p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.services .cards .card-body span{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.services .cards .card-body .btn{
+    width: 134px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 0px;
+    border: 1px solid #0c3c60;
+    background-color: transparent;
+    color: #0c3c60;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.services .cards .card-body .btn:hover{
+    transition: 0.2s;
+    opacity: 0.8;
+}
+.services .cards .card a{
+    background-color: black;
+    max-width: 470px;
+    width: 100%;
+}
+.services .cards .card a img:hover{
+    opacity: 0.6;
+    transition: 0.2s;
+}
+.services .cards .card .card-body a{
+    text-decoration: none;
+    background-color: transparent;
+}
+.services .cards .card .card-body a h5:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.services h1{
+    font-size: 60px;
+    color: #0f3555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 100px 0px 125px;
 }
