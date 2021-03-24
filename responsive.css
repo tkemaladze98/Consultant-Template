@@ -1,6 +1,16 @@
 @media screen and (max-width:980px){
     .home .banner-area div h1{
-        font-size: 50px;
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .home .banner-area div span{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .home .banner-area div{
+        max-height: 200px!important;
+        /* max-width: 280px; */
     }
     .about .second article{
         flex-direction: column;
@@ -81,23 +91,63 @@
     }
     .home .clients .card-group .card{
         flex: 1 1 40%;
-        border: 1px solid rgb(197, 197, 197);
-    }
-    .home .banner-area div{
-        min-height: 200px!important;
-        justify-content: flex-end;
+        border: none;
     }
     .home .banner-area div h1{
-        font-size: 36px;
+        font-size: 22px;
+        margin-bottom: 5px;
     }
     .home .banner-area div span{
-        font-size: 20px;
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .home .banner-area div{
+        max-height: 140px!important;
+        max-width: 280px;
+    }
+    .home .banner-area div button{
+        width: 210px;
     }
     .home .creator .carousel{
         width: 100%;
     }
     .home .creator .carousel-item p{
         max-width: 365px;
+    }
+    .home .clients{
+        margin-bottom: 40px;
+    }
+    .home .clients h1{
+        margin-bottom: 20px;
+    }
+    .home .clients .card-group .card{
+        max-height: 100px;
+        min-height: 100px;
+    }
+    .home .clients .card-group .card .card-body svg{
+        width: 150px;
+        height: 80px;
+    }
+    .home .creator{
+        padding-top: 80px;
+    }
+    footer .contact form .row{
+        display: flex;
+        flex-direction: column!important;
+    }
+    footer .contact .row .col{
+        padding: 0px;
+    }
+    footer .contact form input{
+        margin-bottom: 10px;
+    }
+    footer .contact .form-group{
+        flex-direction: column;
+    }
+    footer .contact .form-group .btn{
+        width: 100%;
+        margin-top: 10px;
     }
     footer .contact-info .left{
         padding-left: 15px;
@@ -107,6 +157,9 @@
     }
 }
 @media screen and (max-width:470px){
+    .home .creator h2{
+        font-size: 23px;
+    }
     .services .cards{
         width: 100%;
     }
@@ -120,9 +173,9 @@
         width: 100%!important;
         padding-left: 20px;
     }
-    footer .contact .form-group .btn{
+    /* footer .contact .form-group .btn{
         width: 165px!important;
-    }
+    } */
     footer .contact-info{
         flex-direction: column;
         min-height: 408px;
@@ -131,22 +184,34 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    .home .banner-area div h1{
-        font-size: 26px;
+    /* .home .banner-area div h1{
+        font-size: 22px;
     }
     .home .banner-area div span{
         font-size: 16px;
-    }
+    } */
 }
 @media screen and (max-width:375px){
     .about .first div article{
         padding-right: 10px;
         padding-left: 10px;
     }
+    .home .banner-area div h1{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .home .banner-area div span{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 @media screen and (max-width:300px){
     .home .about div{
         min-height: 780px;
+    }
+    .home .banner-area div{
+        width: 250px;
     }
 }
 @media screen and (min-width:1500px){
