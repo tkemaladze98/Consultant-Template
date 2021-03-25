@@ -771,3 +771,131 @@ footer .contact-info .right p a{
     font-weight: 400;
     margin: 100px 0px 125px;
 }
+.sign-in section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 50px;
+}
+.sign-in section h1{
+    margin: 10px 0px 18px;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.sign-in section p {
+    font-size: 18px;
+    margin: 0px 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+.sign-in section p a{
+    text-decoration: none;
+    color: #3179af;
+}
+.sign-in section .facebook{
+    width: 100%;
+    max-width: 316px;
+}
+.sign-in section .facebook button{
+    width: 100%;
+    min-height: 40px;
+    background-color: #3B5998;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sign-in section .facebook button:hover{
+    opacity: 0.9;
+    transition: 0.2s;
+}
+.sign-in section .google{
+    width: 100%;
+    max-width: 316px;
+    margin-top: 16px;
+    margin-bottom: 85px;
+}
+.sign-in section .google button{
+    width: 100%;
+    min-height: 40px;
+    background-color: #4285F4;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sign-in section .google button:hover{
+    opacity: 0.9;
+    transition: 0.2s;
+}
+.sign-in section .or{
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    height: 11px;
+    border-bottom: 1px solid rgb(216, 213, 213);
+    margin-bottom: 40px;
+    position: relative;
+}
+.sign-in section .or span{
+    width: 41px;
+    background-color: white;
+    padding: 0px 13px;
+    position: absolute;
+    top: -3px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+.sign-in section .btn-secondary{
+    width: 100%;
+    max-width: 320px;
+    min-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    background-color: transparent;
+    color: black;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: 1px solid  rgb(216, 213, 213);
+    margin-bottom: 45px;
+}
+.sign-in section .btn-secondary:hover{
+    border-color: black;
+    transition: 0.2s;
+}
+.sign-in section .form-check input{
+    border-color: rgb(216, 213, 213);
+    width: 12px;
+}
+.sign-in section .form-check label{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.sign-in section .form-check a{
+    color: black;
+    text-decoration: underline;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}

@@ -213,6 +213,12 @@
     .home .banner-area div{
         width: 250px;
     }
+    .sign-in section .facebook button{
+        padding-right: 40px;
+    }
+    .sign-in section .google button{
+        padding-right: 45px;
+    }
 }
 @media screen and (min-width:1500px){
     header .navbar{
