@@ -173,9 +173,6 @@
         width: 100%!important;
         padding-left: 20px;
     }
-    /* footer .contact .form-group .btn{
-        width: 165px!important;
-    } */
     footer .contact-info{
         flex-direction: column;
         min-height: 408px;
@@ -184,12 +181,6 @@
         padding-left: 0px;
         padding-right: 0px;
     }
-    /* .home .banner-area div h1{
-        font-size: 22px;
-    }
-    .home .banner-area div span{
-        font-size: 16px;
-    } */
 }
 @media screen and (max-width:375px){
     .about .first div article{
