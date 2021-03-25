@@ -406,7 +406,8 @@ footer .contact .form-group label{
     margin: 0px;
 }
 footer .contact .form-group .btn{
-    width: 187px;
+    width: 100%;
+    max-width: 187px;
     height: 55px;
     background-color: white;
     color: #0c3b5f;
