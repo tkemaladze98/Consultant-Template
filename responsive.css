@@ -147,6 +147,7 @@
     }
     footer .contact .form-group .btn{
         width: 100%;
+        max-width: 1000px;
         margin-top: 10px;
     }
     footer .contact-info .left{
