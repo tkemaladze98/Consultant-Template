@@ -50,9 +50,6 @@ header .navbar-nav a:hover{
     transition: 0.3s;
 }
 .home .banner-area{
-    /* background-image: url(https://static.wixstatic.com/media/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.jpg/v1/fill/w_1551,h_784,al_c,q_85,usm_0.66_1.00_0.01/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.webp); */
-    /* background-size: cover; */
-    /* min-height: 682px; */
     position: relative;
 }
 .home .banner-area img{
@@ -899,4 +896,11 @@ footer .contact-info .right p a{
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+
+header .navbar-nav .actives{
+    color: #50aaf0!important;
+}
+footer .contact-info .actives{
+    color: #50aaf0!important;
 }
