@@ -1,0 +1,217 @@
+@media screen and (max-width:980px){
+    .home .banner-area div h1{
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .home .banner-area div span{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .home .banner-area div{
+        max-height: 200px!important;
+        /* max-width: 280px; */
+    }
+    .about .second article{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .first div{
+        flex-direction: column;
+    }
+    .about .first div img{
+        max-width: 489px;
+    }
+    .about .first h1{
+        margin-bottom: 0px;
+    }
+    .about .first div{
+        border: none;
+    }
+    .about .first div article{
+        border: none!important;
+    }
+    .about .second .cards article div{
+        /* border: 1px solid rgb(216, 213, 213)!important; */
+        margin-bottom: 55px;
+        border: none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .about .first div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .first div article{
+        margin: auto;
+        border: 1px solid rgb(216, 213, 213);
+        padding: 50px;
+    }
+    .projects .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects .cards .card{
+        max-width: 490px;
+        /* border: 1px solid rgb(216, 213, 213)!important; */
+        border: none;
+    }
+    .projects h1{
+        margin-bottom: 0px;
+    }
+    .services article{
+        max-width: 470px;
+    }
+    .services .cards .card{
+        flex-direction: column;
+    }
+    .services h1{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:650px){
+    footer .mid{
+        display: none!important;
+    }
+    footer .contact-info{
+        padding-bottom: 70px;
+    }
+    footer .contact-info aside{
+        max-width: 250px;
+    }
+    footer .contact-info .right i{
+        margin-bottom: 0px;
+    }
+    .home .clients .card-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home .clients .card-group .card{
+        flex: 1 1 40%;
+        border: none;
+    }
+    .home .banner-area div h1{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .home .banner-area div span{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .home .banner-area div{
+        max-height: 140px!important;
+        max-width: 280px;
+    }
+    .home .banner-area div button{
+        width: 210px;
+    }
+    .home .creator .carousel{
+        width: 100%;
+    }
+    .home .creator .carousel-item p{
+        max-width: 365px;
+    }
+    .home .clients{
+        margin-bottom: 40px;
+    }
+    .home .clients h1{
+        margin-bottom: 20px;
+    }
+    .home .clients .card-group .card{
+        max-height: 100px;
+        min-height: 100px;
+    }
+    .home .clients .card-group .card .card-body svg{
+        width: 150px;
+        height: 80px;
+    }
+    .home .creator{
+        padding-top: 80px;
+    }
+    footer .contact form .row{
+        display: flex;
+        flex-direction: column!important;
+    }
+    footer .contact .row .col{
+        padding: 0px;
+    }
+    footer .contact form input{
+        margin-bottom: 10px;
+    }
+    footer .contact .form-group{
+        flex-direction: column;
+    }
+    footer .contact .form-group .btn{
+        width: 100%;
+        max-width: 1000px;
+        margin-top: 10px;
+    }
+    footer .contact-info .left{
+        padding-left: 15px;
+    }
+    footer .contact-info .right{
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width:470px){
+    .home .creator h2{
+        font-size: 23px;
+    }
+    .services .cards{
+        width: 100%;
+    }
+    .services .cards .card{
+        width: 100%;
+    }
+    .services .cards .card img{
+        width: 100%;
+    }
+    .services .cards .card .card-body{
+        width: 100%!important;
+        padding-left: 20px;
+    }
+    footer .contact-info{
+        flex-direction: column;
+        min-height: 408px;
+    }
+    .about .second .cards article div{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width:375px){
+    .about .first div article{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .home .banner-area div h1{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .home .banner-area div span{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width:300px){
+    .home .about div{
+        min-height: 780px;
+    }
+    .home .banner-area div{
+        width: 250px;
+    }
+    .sign-in section .facebook button{
+        padding-right: 40px;
+    }
+    .sign-in section .google button{
+        padding-right: 45px;
+    }
+}
+@media screen and (min-width:1500px){
+    header .navbar{
+        max-width: 2000px;
+    }
+}
